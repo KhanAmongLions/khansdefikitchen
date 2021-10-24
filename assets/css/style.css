@@ -11483,7 +11483,7 @@ a.btn-outline.disabled:hover {
 - - - - - - - - - 2/ Button variations
 =======================================================*/
 .btn-primary {
-  color: #ffffff;
+  color: #000000;
   border: none !important;
   -webkit-transition: all 0.4s ease-in-out !important;
   transition: all 0.4s ease-in-out !important;
@@ -11498,7 +11498,7 @@ a.btn-outline.disabled:hover {
   height: 0;
   width: 0;
   border-radius: 100%;
-  background: #183b56;
+  background: #054d85;
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -11522,16 +11522,16 @@ a.btn-outline.disabled:hover {
 }
 
 .btn-grad {
-  color: #ffffff;
+  color: #000000;
   border: none !important;
   -webkit-transition: all 0.4s ease-in-out !important;
   transition: all 0.4s ease-in-out !important;
-  background: radial-gradient(100% 100% at 53.13% 0%, #31e7fa 0%, #4477ff 52.6%, #db74ff 100%);
+  background: radial-gradient(100% 100% at 53.13% 0%, #fa3131 0%, #ff4444 52.6%, #ff749e 100%);
 }
 
 .btn-grad:hover {
   outline: none;
-  background: radial-gradient(100% 100% at 53.13% 0%, #31e7fa 0%, #4477ff 52.6%, #db74ff 100%);
+  background: radial-gradient(100% 100% at 53.13% 0%, #860202 0%, #f33f3f96 52.6%, #b1073a 100%);
   border: solid 2px #566ffe;
 }
 
@@ -14896,7 +14896,7 @@ label:active:after {
   content: "";
   position: absolute;
   left: 0;
-  background: white;
+  background: black;
   width: 100vw;
   height: calc(100% - 5rem);
   z-index: -1;
